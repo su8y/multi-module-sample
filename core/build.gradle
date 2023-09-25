@@ -1,0 +1,11 @@
+//core build.gradle
+dependencies {
+    compileOnly 'org.springframework.boot:spring-boot-starter-web:2.6.1'
+}
+bootJar {
+    enabled = false
+}
+
+jar {
+    enabled = true
+}
